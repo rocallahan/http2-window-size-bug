@@ -1,0 +1,17 @@
+[package]
+name = "rustls-bug"
+version = "0.1.0"
+authors = ["Robert O'Callahan <robert@ocallahan.org>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+env_logger = "0.7"
+futures = "0.1"
+hyper-rustls = "=0.17.1"
+hyper = "0.12"
+log = "0.4"
+rustls = "0.16"
+tokio = "0.1"
+webpki-roots = "0.17"
